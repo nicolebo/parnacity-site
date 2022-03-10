@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resto & Bares - Parnacity</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,600,700" rel="stylesheet">
+    <!-- inject:css-->
+    <link rel="stylesheet" href="vendor_assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="vendor_assets/css/brands.css">
+    <link rel="stylesheet" href="vendor_assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="vendor_assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="vendor_assets/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="vendor_assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="vendor_assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="vendor_assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor_assets/css/select2.min.css">
+    <link rel="stylesheet" href="vendor_assets/css/slick.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- endinject -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fevicon.png">
+    <style>
+
+    @font-face {
+        font-family: f12;
+        src: url(bh.woff);
+    }
+
+    @font-face {
+        font-family: f13;
+        src: url(bh2.woff);
+    }
+
+    </style>
+</head>
+
+<body>
+  <section class="header-style">
+
+        <div class="bg-dark" style="    background-color: #c21e49 !important;">
+            <div class="menu-area menu1 menu--light">
+                <div class="top-menu-area" style="    border: 0px !important;">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="menu-fullwidth">
+                                    <div class="logo-wrapper order-lg-0 order-sm-1"  style="    border: 0px !important;">
+                                      <div class="logo logo-top">
+                                          <a href="index.html"><img src="logo.png" alt="logo image" class="img-fluid" style="width:175px;"></a>
+                                      </div>
+                                    </div><!-- ends: .logo-wrapper -->
+
+                                    <div class="menu-right order-lg-2 order-sm-2" >
+                                        <div class="search-wrapper" style="    min-width: 71%;">
+                                            <div class="nav_right_module search_module">
+                                                <span class="icon-left" id="basic-addon9"><i class="la la-search"></i></span>
+                                                <div class="search_area">
+                                                    <form action="/">
+                                                        <div class="input-group input-group-light">
+                                                            <input type="text" class="form-control search_field top-search-field" placeholder="Que estas Buscando" autocomplete="off">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="search-categories">
+                                                <ul class="list-unstyled">
+                                                    <li><a href="" style="font-family:'f13';"><span class="la la-cutlery bg-primary"></span>Restos y Bares</a></li>
+                                                    <li><a href="" style="font-family:'f13';"><span class="la la-balance-scale bg-success"></span> Profesionales</a></li>
+                                                    <li><a href="" style="font-family:'f13';"><span class="la la-shopping-cart bg-secondary"></span> Comercios</a></li>
+                                                    <li><a href="" style="font-family:'f13';"><span class="la la-industry bg-danger"></span> Industrias</a></li>
+                                                    <li><a href="" style="font-family:'f13';"><span class="la la-bullhorn bg-info"></span> Servicios</a></li>
+                                                    <li><a href="" style="font-family:'f13';"><span class="la la-wrench bg-warning"></span> Oficios</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- ends: .search-wrapper -->
+                                        <!-- start .author-area -->
+                                        <div class="author-area">
+                                            <div class="author__access_area">
+                                              <ul class="d-flex list-unstyled align-items-center">
+                                                  <li>
+                                                      <a href="add-listing.html" class="btn btn-xs btn-gradient btn-gradient-two">
+                                                          <span class="la la-plus"></span> Agregá tu comercio
+                                                      </a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="" class="access-link" data-toggle="modal" data-target="#login_modal">Inicia Sesión</a>
+                                                      <span>o</span>
+                                                      <a href="" class="access-link" data-toggle="modal" data-target="#signup_modal">Registraté</a>
+                                                  </li>
+                                              </ul>
+                                            </div>
+                                        </div>
+                                        <!-- end .author-area -->
+                                        <div class="offcanvas-menu d-none">
+                                            <a href="" class="offcanvas-menu__user"><i class="la la-user"></i></a>
+                                            <div class="offcanvas-menu__contents">
+                                                <a href="" class="offcanvas-menu__close"><i class="la la-times-circle"></i></a>
+                                                <div class="author-avatar">
+                                                    <img src="img/author-avatar.png" alt="" class="rounded-circle">
+                                                </div>
+                                                <ul class="list-unstyled">
+                                                    <li><a href="dashboard-listings.html">My Profile</a></li>
+                                                    <li><a href="dashboard-listings.html">My Listing</a></li>
+                                                    <li><a href="dashboard-listings.html">Favorite Listing</a></li>
+                                                    <li><a href="add-listing.html">Add Listing</a></li>
+                                                    <li><a href="">Logout</a></li>
+                                                </ul>
+                                                <div class="search_area">
+                                                    <form action="/">
+                                                        <div class="input-group input-group-light">
+                                                            <input type="text" class="form-control search_field" placeholder="Search here..." autocomplete="off">
+                                                        </div>
+                                                        <button type="submit" class="btn btn-sm btn-secondary">Search</button>
+                                                    </form>
+                                                </div><!-- ends: .search_area -->
+                                            </div><!-- ends: .author-info -->
+                                        </div><!-- ends: .offcanvas-menu -->
+                                    </div><!-- ends: .menu-right -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end /.row -->
+                    </div>
+                    <!-- end /.container -->
+                </div>
+                <!-- end  -->
+            </div>
+        </div>
+    </section>
+    <section class="all-listing-wrapper section-bg" style="    padding-top: 60px;
+">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="atbd_generic_header" style="background: none;
+    border: none;">
+                        <div class="atbd_generic_header_title">
+                            <h4 style="font-size: 47px;font-family:'f12'; margin-bottom: 0px;
+    line-height: 0.9;">Resto & Bares </h4>
+                            <p style="font-family:'f13'">Encontramos 15 resultados</p>
+                        </div><!-- ends: .atbd_generic_header_title -->
+                        <div class="atbd_listing_action_btn btn-toolbar align-items-center" role="toolbar">
+                            <!-- Views dropdown -->
+
+                            <!-- Orderby dropdown -->
+
+                        </div><!-- ends: .atbd_listing_action_btn -->
+                    </div><!-- ends: .atbd_generic_header -->
+                </div><!-- ends: .col-lg-12 -->
+                <div class="col-lg-12 listing-items">
+                    <div class="row">
+                        <div class="col-lg-4 order-1 order-lg-0 mt-5 mt-lg-0">
+                            <div class="listings-sidebar">
+                                <div class="search-area default-ad-search">
+                                    <form action="#">
+
+
+
+                                        <div class="check-btn">
+                                            <div class="btn-checkbox active-color-secondary">
+                                                <label>
+                                                    <input type="checkbox" value="1"><span class="color-success"><i class="la la-star"></i> Verificados</span>
+                                                </label>
+                                            </div>
+                                            <div class="btn-checkbox active-color-secondary">
+                                                <label>
+                                                    <input type="checkbox" value="1"><span class="color-primary"><i class="la la-tags"></i> Con Oferta</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="filter-checklist">
+                                            <h5 style="padding-bottom: 12px;">Menu</h5>
+                                            <div class="checklist-items feature-checklist hideContent"  style="    height: auto;">
+                                                       <div class="custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                                                    <input type="checkbox" class="custom-control-input" id="tag9" >
+                                                    <label class="custom-control-label" for="tag9">Carne</label>
+                                                </div>
+
+                                                       <div class="custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                                                    <input type="checkbox" class="custom-control-input" id="tag91" >
+                                                    <label class="custom-control-label" for="tag91">Lacteo</label>
+                                                </div>
+
+
+
+
+                                            </div>
+                                        </div><!-- ends: .filter-checklist -->
+
+                                        <div class="filter-checklist">
+                                            <h5 style="padding-bottom: 12px;">Caracteristicas</h5>
+                                            <div class="checklist-items feature-checklist hideContent"  style="    height: auto;">
+                                                       <div class="custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                                                    <input type="checkbox" class="custom-control-input" id="tag922x" >
+                                                    <label class="custom-control-label" for="tag922x">Pastas</label>
+                                                </div>
+
+                                                       <div class="custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                                                    <input type="checkbox" class="custom-control-input" id="tag912x" >
+                                                    <label class="custom-control-label" for="tag912x">Sushi</label>
+                                                </div>
+
+                                                                                                       <div class="custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                                                                                                    <input type="checkbox" class="custom-control-input" id="tag9122x" >
+                                                                                                    <label class="custom-control-label" for="tag9122x">Comida Rapida</label>
+                                                                                                </div>
+
+
+                                                                                                                                                                                                       <div class="custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                                                                                                                                                                                                    <input type="checkbox" class="custom-control-input" id="tag9122x" >
+                                                                                                                                                                                                    <label class="custom-control-label" for="tag9122x">Para llevar</label>
+                                                                                                                                                                                                </div>
+
+
+
+
+                                            </div>
+                                        </div>
+
+                                        <div class="filter-checklist">
+                                            <h5 style="padding-bottom: 12px;">Pais</h5>
+                                            <div class="checklist-items feature-checklist hideContent"  style="    height: auto;">
+                                                       <div class="custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                                                    <input type="checkbox" class="custom-control-input" id="tag922" >
+                                                    <label class="custom-control-label" for="tag922">Argentina</label>
+                                                </div>
+
+                                                       <div class="custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                                                    <input type="checkbox" class="custom-control-input" id="tag912" >
+                                                    <label class="custom-control-label" for="tag912">Brasil</label>
+                                                </div>
+
+                                                                                                       <div class="custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                                                                                                    <input type="checkbox" class="custom-control-input" id="tag9122" >
+                                                                                                    <label class="custom-control-label" for="tag9122">Uruguay</label>
+                                                                                                </div>
+
+
+
+                                            </div>
+                                        </div><!-- ends: .filter-checklist -->
+                                        <a href="" class="btn btn-gradient btn-gradient-two btn-block btn-icon icon-right m-top-40">Filtrar <span class="la la-long-arrow-right"></span></a>
+
+
+
+
+
+
+
+
+
+                                    </form><!-- ends: form -->
+                                </div><!-- ends: .default-ad-search -->
+                            </div>
+
+                            <a href=""><img src="4755842294.gif" width="100%;" style=" margin-top:30px;"></a>
+
+
+                            <a href="http://www.yafokosher.com.ar"><img src="4410872068.jpg" width="100%;" style=" margin-top:40px;"></a>
+
+
+                        </div><!-- ends: .col-lg-4 -->
+                        <div class="col-lg-8 order-0 order-lg-1">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="atbd_single_listing atbd_listing_list">
+                                        <article class="atbd_single_listing_wrapper">
+                                            <figure class="atbd_listing_thumbnail_area">
+                                                <div class="atbd_listing_image">
+                                                    <a href="">
+                                                        <img src="k1.jpg" alt="listing image">
+                                                    </a>
+                                                </div><!-- ends: .atbd_listing_image -->
+                                                <div class="atbd_thumbnail_overlay_content">
+
+                                                </div><!-- ends: .atbd_thumbnail_overlay_content -->
+                                            </figure><!-- ends: .atbd_listing_thumbnail_area -->
+                                            <div class="atbd_listing_info">
+                                                <div class="atbd_content_upper">
+                                                    <h4 class="atbd_listing_title" style="   ">
+                                                        <a href="">Mc Donald's Kosher</a>
+
+
+                                                    </h4>
+                                                    <div class="atbd_listing_meta">
+                                                        <span class="atbd_meta atbd_listing_rating"><i class="la la-star" style="margin-right: 5px; margin-left: 0px;"></i> Verificado</span>
+                                                        <span class="atbd_meta atbd_listing_price">Oferta: 2x1 en Hamburguesas</span>
+                                                    </div><!-- End atbd listing meta -->
+                                                    <div class="atbd_listing_data_list" style="margin-top: 12px;">
+                                                      <p style="font-size: 12px;
+    line-height: 1.6;">
+Vení a Starbucks, Hay una Bebida hecha especialmente para Vos!. Free Wi-Fi. Bebidas Artesanales. 							</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p style="    font-size: 13px;
+    line-height: 1.6;"><span class="la la-map-marker"></span>Abasto Shopping. C.A.B.A</p>
+                                                            </li>
+                                                            <li>
+                                                                <p style="    font-size: 13px;
+    line-height: 1.6;"><span class="la la-phone"></span>(415) 796-3633</p>
+                                                            </li>
+                                                            <li>
+                                                                <p style="    font-size: 13px;
+    line-height: 1.6;"><span class="la la-globe"></span>www.macdonals.com.ar</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- End atbd listing meta -->
+                                                </div><!-- end .atbd_content_upper -->
+
+                                            </div><!-- ends: .atbd_listing_info -->
+                                        </article><!-- atbd_single_listing_wrapper -->
+                                    </div>
+                                </div><!-- ends: .col-lg-12 -->
+
+                                <div class="col-lg-12">
+                                        <div class="atbd_single_listing atbd_listing_list">
+                                            <article class="atbd_single_listing_wrapper">
+                                                <!-- ends: .atbd_listing_thumbnail_area -->
+                                                <div class="atbd_listing_info">
+                                                    <div class="atbd_content_upper">
+                                                        <h4 class="atbd_listing_title" style="   ">
+                                                            <a href="">Mc Donald's Kosher</a>
+                                                        </h4>
+                                                        <!-- End atbd listing meta -->
+                                                        <div class="atbd_listing_data_list" style="margin-top: 12px;">
+                                                          <p style="font-size: 12px;
+        line-height: 1.6;">
+      Vení a Starbucks, Hay una Bebida hecha especialmente para Vos!. Free Wi-Fi. Bebidas Artesanales. 							</p>
+                                                            <ul style="
+        display: inline-flex;
+    ">
+                                                                <li>
+                                                                    <p style="    font-size: 13px;
+        line-height: 1.6;"><span class="la la-map-marker"></span>Abasto Shopping. C.A.B.A</p>
+                                                                </li>
+                                                                <li style="
+        margin-left: 20px;
+    ">
+                                                                    <p style="    font-size: 13px;
+        line-height: 1.6;"><span class="la la-phone"></span>(415) 796-3633</p>
+                                                                </li>
+                                                                <li style="
+        margin-left: 20px;
+    ">
+                                                                    <p style="    font-size: 13px;
+        line-height: 1.6;"><span class="la la-globe"></span>www.macdonals.com.ar</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div><!-- End atbd listing meta -->
+                                                    </div><!-- end .atbd_content_upper -->
+
+                                                </div><!-- ends: .atbd_listing_info -->
+                                            </article><!-- atbd_single_listing_wrapper -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                                                        <div class="atbd_single_listing atbd_listing_list">
+                                                                            <article class="atbd_single_listing_wrapper">
+                                                                                <!-- ends: .atbd_listing_thumbnail_area -->
+                                                                                <div class="atbd_listing_info">
+                                                                                    <div class="atbd_content_upper">
+                                                                                        <h4 class="atbd_listing_title" style="   ">
+                                                                                            <a href="">Mc Donald's Kosher</a>
+                                                                                        </h4>
+                                                                                        <!-- End atbd listing meta -->
+                                                                                        <div class="atbd_listing_data_list" style="margin-top: 12px;">
+                                                                                          <p style="font-size: 12px;
+                                        line-height: 1.6;">
+                                      Vení a Starbucks, Hay una Bebida hecha especialmente para Vos!. Free Wi-Fi. Bebidas Artesanales. 							</p>
+
+                                                                                        </div><!-- End atbd listing meta -->
+                                                                                    </div><!-- end .atbd_content_upper -->
+
+                                                                                </div><!-- ends: .atbd_listing_info -->
+                                                                            </article><!-- atbd_single_listing_wrapper -->
+                                                                        </div>
+                                                                    </div>
+                                <div class="col-lg-12">
+                                    <div class="atbd_single_listing atbd_listing_list">
+                                        <article class="atbd_single_listing_wrapper">
+                                            <figure class="atbd_listing_thumbnail_area">
+                                                <div class="atbd_listing_image">
+                                                    <a href="">
+                                                        <img src="k2.jpg" alt="listing image">
+                                                    </a>
+                                                </div><!-- ends: .atbd_listing_image -->
+                                                <div class="atbd_thumbnail_overlay_content">
+
+                                                </div><!-- ends: .atbd_thumbnail_overlay_content -->
+                                            </figure><!-- ends: .atbd_listing_thumbnail_area -->
+                                            <div class="atbd_listing_info">
+                                                <div class="atbd_content_upper">
+                                                    <h4 class="atbd_listing_title" style="">
+                                                        <a href="">Cafe Martinez</a>
+                                                    </h4>
+                                                    <div class="atbd_listing_meta">
+                                                        <span class="atbd_meta atbd_listing_rating"><i class="la la-star" style="margin-right: 5px; margin-left: 0px;"></i> Verificado</span>
+                                                        <span class="atbd_meta atbd_listing_price">Oferta: 2x1 en Hamburguesas</span>
+                                                    </div><!-- End atbd listing meta -->
+                                                    <div class="atbd_listing_data_list" style="margin-top: 12px;">
+                                                      <p style="font-size: 12px;
+    line-height: 1.6;">
+  Vení a Starbucks, Hay una Bebida hecha especialmente para Vos!. Free Wi-Fi. Bebidas Artesanales. 							</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p style="    font-size: 13px;
+    line-height: 1.6;"><span class="la la-map-marker"></span>Abasto Shopping. C.A.B.A</p>
+                                                            </li>
+                                                            <li>
+                                                                <p style="    font-size: 13px;
+    line-height: 1.6;"><span class="la la-phone"></span>(415) 796-3633</p>
+                                                            </li>
+                                                            <li>
+                                                                <p style="    font-size: 13px;
+    line-height: 1.6;"><span class="la la-globe"></span>www.macdonals.com.ar</p>
+                                                        </ul>
+                                                    </div><!-- End atbd listing meta -->
+                                                </div><!-- end .atbd_content_upper -->
+
+                                            </div><!-- ends: .atbd_listing_info -->
+                                        </article><!-- atbd_single_listing_wrapper -->
+                                    </div>
+                                </div><!-- ends: .col-lg-12 -->
+                                <div class="col-lg-12">
+                                    <div class="atbd_single_listing atbd_listing_list">
+                                        <article class="atbd_single_listing_wrapper">
+                                            <figure class="atbd_listing_thumbnail_area">
+                                                <div class="atbd_listing_image">
+                                                    <a href="">
+                                                        <img src="k5.jpg" alt="listing image">
+                                                    </a>
+                                                </div><!-- ends: .atbd_listing_image -->
+                                                <div class="atbd_thumbnail_overlay_content">
+
+                                                </div><!-- ends: .atbd_thumbnail_overlay_content -->
+                                            </figure><!-- ends: .atbd_listing_thumbnail_area -->
+                                            <div class="atbd_listing_info">
+                                                <div class="atbd_content_upper">
+                                                    <h4 class="atbd_listing_title" style="   ">
+                                                        <a href="">La empanaderia Kosher</a>
+                                                    </h4>
+                                                    <div class="atbd_listing_meta">
+                                                        <span class="atbd_meta atbd_listing_rating"><i class="la la-star" style="margin-right: 5px; margin-left: 0px;"></i> Verificado</span>
+                                                        <span class="atbd_meta atbd_listing_price">Oferta: 2x1 en Hamburguesas</span>
+                                                    </div><!-- End atbd listing meta -->
+                                                    <div class="atbd_listing_data_list" style="margin-top: 12px;">
+                                                      <p style="font-size: 12px;
+      line-height: 1.6;">
+      Vení a Starbucks, Hay una Bebida hecha especialmente para Vos!. Free Wi-Fi. Bebidas Artesanales. 							</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p style="    font-size: 13px;
+      line-height: 1.6;"><span class="la la-map-marker"></span>Abasto Shopping. C.A.B.A</p>
+                                                            </li>
+                                                            <li>
+                                                                <p style="    font-size: 13px;
+      line-height: 1.6;"><span class="la la-phone"></span>(415) 796-3633</p>
+                                                            </li>
+                                                            <li>
+                                                                <p style="    font-size: 13px;
+      line-height: 1.6;"><span class="la la-globe"></span>www.macdonals.com.ar</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- End atbd listing meta -->
+                                                </div><!-- end .atbd_content_upper -->
+
+                                            </div><!-- ends: .atbd_listing_info -->
+                                        </article><!-- atbd_single_listing_wrapper -->
+                                    </div>
+                                </div><!-- ends: .col-lg-12 -->  <div class="col-lg-12">
+                                      <div class="atbd_single_listing atbd_listing_list">
+                                          <article class="atbd_single_listing_wrapper">
+                                              <figure class="atbd_listing_thumbnail_area">
+                                                  <div class="atbd_listing_image">
+                                                      <a href="">
+                                                          <img src="k4.jpg" alt="listing image">
+                                                      </a>
+                                                  </div><!-- ends: .atbd_listing_image -->
+                                                  <div class="atbd_thumbnail_overlay_content">
+
+                                                  </div><!-- ends: .atbd_thumbnail_overlay_content -->
+                                              </figure><!-- ends: .atbd_listing_thumbnail_area -->
+                                              <div class="atbd_listing_info">
+                                                  <div class="atbd_content_upper">
+                                                      <h4 class="atbd_listing_title" style="   ">
+                                                          <a href="">My Bagels Kosher</a>
+                                                      </h4>
+                                                      <div class="atbd_listing_meta">
+                                                          <span class="atbd_meta atbd_listing_rating"><i class="la la-star" style="margin-right: 5px; margin-left: 0px;"></i> Verificado</span>
+                                                          <span class="atbd_meta atbd_listing_price">Oferta: 2x1 en Hamburguesas</span>
+                                                      </div><!-- End atbd listing meta -->
+                                                      <div class="atbd_listing_data_list" style="margin-top: 12px;">
+                                                        <p style="font-size: 12px;
+      line-height: 1.6;">
+  Vení a Starbucks, Hay una Bebida hecha especialmente para Vos!. Free Wi-Fi. Bebidas Artesanales. 							</p>
+                                                          <ul>
+                                                              <li>
+                                                                  <p style="    font-size: 13px;
+      line-height: 1.6;"><span class="la la-map-marker"></span>Abasto Shopping. C.A.B.A</p>
+                                                              </li>
+                                                              <li>
+                                                                  <p style="    font-size: 13px;
+      line-height: 1.6;"><span class="la la-phone"></span>(415) 796-3633</p>
+                                                              </li>
+                                                              <li>
+                                                                  <p style="    font-size: 13px;
+      line-height: 1.6;"><span class="la la-globe"></span>www.macdonals.com.ar</p>
+                                                              </li>
+                                                          </ul>
+                                                      </div><!-- End atbd listing meta -->
+                                                  </div><!-- end .atbd_content_upper -->
+
+                                              </div><!-- ends: .atbd_listing_info -->
+                                          </article><!-- atbd_single_listing_wrapper -->
+                                      </div>
+                                  </div><!-- ends: .col-lg-12 -->  <div class="col-lg-12">
+                                        <div class="atbd_single_listing atbd_listing_list">
+                                            <article class="atbd_single_listing_wrapper">
+                                                <figure class="atbd_listing_thumbnail_area">
+                                                    <div class="atbd_listing_image">
+                                                        <a href="">
+                                                            <img src="k3.jpg" alt="listing image">
+                                                        </a>
+                                                    </div><!-- ends: .atbd_listing_image -->
+                                                    <div class="atbd_thumbnail_overlay_content">
+
+                                                    </div><!-- ends: .atbd_thumbnail_overlay_content -->
+                                                </figure><!-- ends: .atbd_listing_thumbnail_area -->
+                                                <div class="atbd_listing_info">
+                                                    <div class="atbd_content_upper">
+                                                        <h4 class="atbd_listing_title" style=" ">
+                                                            <a href="">Starbucks Kosher</a>
+                                                        </h4>
+                                                        <div class="atbd_listing_meta">
+                                                            <span class="atbd_meta atbd_listing_rating"><i class="la la-star" style="margin-right: 5px; margin-left: 0px;"></i> Verificado</span>
+                                                            <span class="atbd_meta atbd_listing_price">Oferta: 2x1 en Hamburguesas</span>
+                                                        </div><!-- End atbd listing meta -->
+                                                        <div class="atbd_listing_data_list" style="margin-top: 12px;">
+                                                          <p style="font-size: 12px;
+        line-height: 1.6;">
+    Vení a Starbucks, Hay una Bebida hecha especialmente para Vos!. Free Wi-Fi. Bebidas Artesanales. 							</p>
+                                                            <ul>
+                                                                <li>
+                                                                    <p style="    font-size: 13px;
+        line-height: 1.6;"><span class="la la-map-marker"></span>Abasto Shopping. C.A.B.A</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p style="    font-size: 13px;
+        line-height: 1.6;"><span class="la la-phone"></span>(415) 796-3633</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p style="    font-size: 13px;
+        line-height: 1.6;"><span class="la la-globe"></span>www.macdonals.com.ar</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div><!-- End atbd listing meta -->
+                                                    </div><!-- end .atbd_content_upper -->
+
+                                                </div><!-- ends: .atbd_listing_info -->
+                                            </article><!-- atbd_single_listing_wrapper -->
+                                        </div>
+                                    </div><!-- ends: .col-lg-12 -->
+
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <nav class="navigation pagination d-flex justify-content-end" role="navigation">
+                                        <div class="nav-links">
+                                            <a class="prev page-numbers" href=""><span class="la la-long-arrow-left"></span></a>
+                                            <a class="page-numbers" href="">1</a>
+                                            <span aria-current="page" class="page-numbers current">2</span>
+                                            <a class="page-numbers" href="">3</a>
+                                            <a class="next page-numbers" href=""><span class="la la-long-arrow-right"></span></a>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div><!-- ends: .col-lg-8 -->
+                    </div>
+                </div><!-- ends: .listing-items -->
+            </div>
+        </div>
+    </section><!-- ends: .all-listing-wrapper -->
+    <footer class="footer-three footer-grey p-top-95" style="padding-top: 60px;
+    padding-bottom: 20px;">
+        <div class="footer-top p-bottom-25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget widget_pages">
+                            <h2 class="widget-title">Que estas buscando?</h2>
+                            <ul class="list-unstyled">
+                                <li class="page-item"><a href=""><i class="la la-cutlery"></i> Resto y Bares</a></li>
+                                <li class="page-item"><a href=""><i class="la la-balance-scale"></i> Profesionales</a></li>
+                                <li class="page-item"><a href=""><i class="la la-shopping-cart"></i> Comercios</a></li>
+
+                            </ul>
+                        </div>
+                    </div><!-- ends: .col-lg-3 -->
+                    <div class="col-lg-2   col-sm-6">
+                        <div class="widget widget_pages">
+                            <h2 class="widget-title" style="color:white">.</h2>
+                            <ul class="list-unstyled">
+                                <li class="page-item"><a href=""><i class="la la-industry"></i> Industrias</a></li>
+                                <li class="page-item"><a href=""><i class="la la-bullhorn"></i> Servicios</a></li>
+                                <li class="page-item"><a href=""><i class="la la-wrench"></i> Oficios</a></li>
+
+                            </ul>
+                        </div>
+                    </div><!-- ends: .col-lg-3 -->
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget widget_social">
+                            <h2 class="widget-title">Conectate con nosotros</h2>
+                            <ul class="list-unstyled social-list">
+                                <li><a href=""><span class="mail"><i class="la la-envelope" style="width: 1rem;
+    height: 1rem; background:none"></i></span> Soporte</a></li>
+                                <li><a href=""><span class="facebook"><i class="fab fa-facebook-f" style="width: 1rem;
+    height: 1rem; background:none"></i></span> Facebook</a></li>
+                                <li><a href=""><span class="instagram"><i class="fab fa-instagram" style="width: 1rem;
+    height: 1rem; background:none"></i></span> Instagram</a></li>
+                            </ul>
+                        </div><!-- ends: .widget -->
+                    </div><!-- ends: .col-lg-3 -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="widget widget_text">
+                            <div class="textwidget">
+                                <h2  class="widget-title">Descargá la App de Parnacity y encontrá todo eso que estas buscando.</h2>
+                                <ul class="list-unstyled store-btns">
+                                    <li><a href="" class="btn-gradient btn-gradient-two btn btn-md btn-icon icon-left"><span class="fab fa-apple"></span> App Store</a></li>
+                                    <li><a href="" class="btn btn-dark btn-md btn-icon btn-icon"><span class="fab fa-android"></span> Google Play</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- ends: .widget -->
+                    </div><!-- ends: .col-lg-3 -->
+                </div>
+            </div>
+        </div><!-- ends: .footer-top -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-bottom--content">
+                            <a href="" class="footer-logo"><img src="logo-footer.png" alt="" width="150px"></a>
+                            <p class="m-0 copy-text" style="text-align:right;">©2022 Parnacity - Todos los derechos reservados</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- ends: .footer-bottom -->
+    </footer><!-- ends: .footer -->
+    <div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="login_modal_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="login_modal_label"><i class="la la-lock"></i> Inicia Sesión</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="/" id="login-form">
+                        <input type="text" class="form-control" placeholder="Usuario o Email" required>
+                        <input type="password" class="form-control" placeholder="Password" required>
+                        <div class="keep_signed custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                            <input type="checkbox" class="custom-control-input" name="keep_signed_in" value="1" id="keep_signed_in">
+                            <label for="keep_signed_in" class="not_empty custom-control-label">Mantenerme conectado</label>
+                        </div>
+                        <button type="submit" class="btn btn-block btn-lg btn-gradient btn-gradient-two">Ingresar</button>
+                    </form>
+                    <div class="form-excerpts">
+                        <ul class="list-unstyled">
+                            <li>No estas registrado? <a href="">Registrate</a></li>
+                        </ul>
+                        <div class="social-login">
+                            <span>O connectate con</span>
+                            <p><a href="" class="btn btn-outline-secondary"><i class="fab fa-facebook-f"></i> Facebook</a><a href="" class="btn btn-outline-danger"><i class="fab fa-google-plus-g"></i> Google</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="signup_modal" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signup_modal_label"><i class="la la-lock"></i> Registraté</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="/" id="signup-form">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                        <input type="password" class="form-control" placeholder="Password" required>
+                        <button type="submit" class="btn btn-block btn-lg btn-gradient btn-gradient-two">Registraté</button>
+                    </form>
+                    <div class="form-excerpts">
+                        <ul class="list-unstyled">
+                            <li>Ya estas registrado? <a href="">Inicia Sesión</a></li>
+                        </ul>
+                        <div class="social-login">
+                            <span>O registraté con</span>
+                            <p><a href="" class="btn btn-outline-secondary"><i class="fab fa-facebook-f"></i> Facebook</a><a href="" class="btn btn-outline-danger"><i class="fab fa-google-plus-g"></i> Google</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0C5etf1GVmL_ldVAichWwFFVcDfa1y_c"></script>
+    <!-- inject:js-->
+    <script src="vendor_assets/js/jquery/jquery-1.12.3.js"></script>
+    <script src="vendor_assets/js/bootstrap/popper.js"></script>
+    <script src="vendor_assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor_assets/js/jquery-ui.min.js"></script>
+    <script src="vendor_assets/js/jquery.barrating.min.js"></script>
+    <script src="vendor_assets/js/jquery.counterup.min.js"></script>
+    <script src="vendor_assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="vendor_assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="vendor_assets/js/jquery.waypoints.min.js"></script>
+    <script src="vendor_assets/js/masonry.pkgd.min.js"></script>
+    <script src="vendor_assets/js/owl.carousel.min.js"></script>
+    <script src="vendor_assets/js/select2.full.min.js"></script>
+    <script src="vendor_assets/js/slick.min.js"></script>
+    <script src="theme_assets/js/locator.js"></script>
+    <script src="theme_assets/js/main.js"></script>
+    <script src="theme_assets/js/map.js"></script>
+    <!-- endinject-->
+</body>
+
+</html>

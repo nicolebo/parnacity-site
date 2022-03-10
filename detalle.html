@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mc Donal´s Kosher</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,600,700" rel="stylesheet">
+    <!-- inject:css-->
+    <link rel="stylesheet" href="vendor_assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="vendor_assets/css/brands.css">
+    <link rel="stylesheet" href="vendor_assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="vendor_assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="vendor_assets/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="vendor_assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="vendor_assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="vendor_assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor_assets/css/select2.min.css">
+    <link rel="stylesheet" href="vendor_assets/css/slick.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- endinject -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fevicon.png">
+    <style>
+
+    @font-face {
+        font-family: f12;
+        src: url(bh.woff);
+    }
+
+    @font-face {
+        font-family: f13;
+        src: url(bh2.woff);
+    }
+
+    </style>
+</head>
+
+<body>
+    <section class="listing-details-wrapper bgimage">
+        <div class="bg_image_holder" style=" opacity: 21.5 !important;"><img src="fondo.jpg" alt="" ></div>
+        <div class="mainmenu-wrapper">
+
+          <div class="menu-area menu1 menu--light" style="    background-color: #c21e49 !important;">
+              <div class="top-menu-area" style="    border: 0px !important;">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="menu-fullwidth">
+                                  <div class="logo-wrapper order-lg-0 order-sm-1"  style="    border: 0px !important;">
+                                    <div class="logo logo-top">
+                                        <a href="index.html"><img src="logo.png" alt="logo image" class="img-fluid" style="width:175px;"></a>
+                                    </div>
+                                  </div><!-- ends: .logo-wrapper -->
+
+                                  <div class="menu-right order-lg-2 order-sm-2" >
+                                      <div class="search-wrapper" style="    min-width: 71%;">
+                                          <div class="nav_right_module search_module">
+                                              <span class="icon-left" id="basic-addon9"><i class="la la-search"></i></span>
+                                              <div class="search_area">
+                                                  <form action="/">
+                                                      <div class="input-group input-group-light">
+                                                          <input type="text" class="form-control search_field top-search-field" placeholder="Que estas Buscando" autocomplete="off">
+                                                      </div>
+                                                  </form>
+                                              </div>
+                                          </div>
+                                          <div class="search-categories">
+                                              <ul class="list-unstyled">
+                                                  <li><a href="" style="font-family:'f13';"><span class="la la-cutlery bg-primary"></span>Restos y Bares</a></li>
+                                                  <li><a href="" style="font-family:'f13';"><span class="la la-balance-scale bg-success"></span> Profesionales</a></li>
+                                                  <li><a href="" style="font-family:'f13';"><span class="la la-shopping-cart bg-secondary"></span> Comercios</a></li>
+                                                  <li><a href="" style="font-family:'f13';"><span class="la la-industry bg-danger"></span> Industrias</a></li>
+                                                  <li><a href="" style="font-family:'f13';"><span class="la la-bullhorn bg-info"></span> Servicios</a></li>
+                                                  <li><a href="" style="font-family:'f13';"><span class="la la-wrench bg-warning"></span> Oficios</a></li>
+                                              </ul>
+                                          </div>
+                                      </div><!-- ends: .search-wrapper -->
+                                      <!-- start .author-area -->
+                                      <div class="author-area">
+                                          <div class="author__access_area">
+                                            <ul class="d-flex list-unstyled align-items-center">
+                                                <li>
+                                                    <a href="add-listing.html" class="btn btn-xs btn-gradient btn-gradient-two">
+                                                        <span class="la la-plus"></span> Agregá tu comercio
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="access-link" data-toggle="modal" data-target="#login_modal">Inicia Sesión</a>
+                                                    <span>o</span>
+                                                    <a href="" class="access-link" data-toggle="modal" data-target="#signup_modal">Registraté</a>
+                                                </li>
+                                            </ul>
+                                          </div>
+                                      </div>
+                                      <!-- end .author-area -->
+                                      <div class="offcanvas-menu d-none">
+                                          <a href="" class="offcanvas-menu__user"><i class="la la-user"></i></a>
+                                          <div class="offcanvas-menu__contents">
+                                              <a href="" class="offcanvas-menu__close"><i class="la la-times-circle"></i></a>
+                                              <div class="author-avatar">
+                                                  <img src="img/author-avatar.png" alt="" class="rounded-circle">
+                                              </div>
+                                              <ul class="list-unstyled">
+                                                  <li><a href="dashboard-listings.html">My Profile</a></li>
+                                                  <li><a href="dashboard-listings.html">My Listing</a></li>
+                                                  <li><a href="dashboard-listings.html">Favorite Listing</a></li>
+                                                  <li><a href="add-listing.html">Add Listing</a></li>
+                                                  <li><a href="">Logout</a></li>
+                                              </ul>
+                                              <div class="search_area">
+                                                  <form action="/">
+                                                      <div class="input-group input-group-light">
+                                                          <input type="text" class="form-control search_field" placeholder="Search here..." autocomplete="off">
+                                                      </div>
+                                                      <button type="submit" class="btn btn-sm btn-secondary">Search</button>
+                                                  </form>
+                                              </div><!-- ends: .search_area -->
+                                          </div><!-- ends: .author-info -->
+                                      </div><!-- ends: .offcanvas-menu -->
+                                  </div><!-- ends: .menu-right -->
+                              </div>
+                          </div>
+                      </div>
+                      <!-- end /.row -->
+                  </div>
+                  <!-- end /.container -->
+              </div>
+              <!-- end  -->
+          </div>
+      </div>
+        </div><!-- ends: .mainmenu-wrapper -->
+        <div class="listing-info content_above">
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-2 col-md-2">
+                    <figure class="atbd_listing_thumbnail_area">
+                                              <div class="atbd_listing_image">
+                                                  <a href="">
+                                                    <img src="k1.jpg" alt="listing image" style="
+                                                        width: 150px;
+                                                        height: 150px;
+                                                        border-radius: 10px;
+                                                    ">                                                  </a>
+                                              </div><!-- ends: .atbd_listing_image -->
+                                              <div class="atbd_thumbnail_overlay_content">
+
+                                              </div><!-- ends: .atbd_thumbnail_overlay_content -->
+                                          </figure>
+                                          <!-- ends: .atbd_listing_action_area -->
+                  </div>
+                    <div class="col-lg-9 col-md-8">
+
+                        <ul class="list-unstyled listing-info--meta">
+
+                            <li>
+                                <div class="average-ratings">
+                                    <span class="atbd_meta atbd_listing_rating" style="   padding: 7px;"><i class="la la-star"></i> Verificado</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="average-ratings">
+                                  <span class="atbd_meta atbd_listing_rating" style="background-color:#f5548e; border:none;     padding: 7px;">Oferta: 2x1 en Hamburguesas</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="atbd_listing_category">
+                                    <a href=""><span class="la la-cutlery"></span>Resto & Bares</a>
+                                </div>
+                            </li>
+                        </ul><!-- ends: .listing-info-meta -->
+                        <h1>Mc Donald's Kosher</h1>
+                        <p class="subtitle">Vení a Mc Donals, Hay una Hamburguesa hecha especialmente para Vos!. Free Wi-Fi.
+
+</p>
+                    </div>
+                    <div class="col-lg-1 col-md-1  align-items-end justify-content-start justify-content-md-end" style="   padding: 0px !important;
+    /* vertical-align: bottom; */
+    display: -webkit-inline-box;
+    padding-right: 17px !important;">
+
+
+                      <div class="atbd_social_wrap" style="display:flex;">
+                                    <p><a href=""><span class="fab fa-facebook" style="         font-size: 25px;
+    /* background: white; */
+    /* padding: 7px; */
+    background-color: #ffffff00;
+    border-radius: 4px;
+    padding: 7px;
+    color: white;
+    margin-right: 4px;
+  "></span></a></p>
+                                                                  <p><a href=""><span class="fab fa-instagram" style="        font-size: 25px;
+    /* background: white; */
+    /* padding: 7px; */
+    background-color: #ffffff00;
+    border-radius: 4px;
+    padding: 7px;
+    color: white;
+    margin-right: 10px;
+  "></span></a></p>
+                                </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal fade" id="atbdp-report-abuse-modal" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="atbdp-report-abuse-modal-label">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <form action="/" id="atbdp-report-abuse-form" class="form-vertical">
+                            <div class="modal-header">
+                                <h3 class="modal-title" id="atbdp-report-abuse-modal-label">Report Abuse</h3>
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="atbdp-report-abuse-message" class="not_empty">Your Complaint<span class="atbdp-star">*</span></label>
+                                    <textarea class="form-control" id="atbdp-report-abuse-message" rows="4" placeholder="Message..." required=""></textarea>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-secondary btn-sm">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="moda_claim_listing" tabindex="-1" role="dialog" aria-labelledby="claim_listing_label" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="claim_listing_label"><i class="la la-check-square"></i> Contactate con Mc Donald's Kosher
+</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <input type="text" placeholder="Nombre" class="form-control" required>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="email" class="form-control" placeholder="Email" required>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="email" class="form-control" placeholder="Telefono" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <textarea class="form-control" rows="6" placeholder="Mensaje" required></textarea>
+                                            <button type="submit" class="btn btn-secondary">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- ends: .listing-info -->
+    </section><!-- ends: .card-details-wrapper -->
+    <section class="directory_listiing_detail_area single_area section-bg section-padding-strict" style="padding:62px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="atbd_content_module atbd_listing_details">
+
+                        <div class="atbdb_content_module_contents">
+                            <p>Dentro del shopping Abasto, en el patio de comidas del tercer piso, está el local de Mc Donalds Kosher.
+
+Una iniciativa única que abrió sus puertas en el año 1997 ofreciendo sus clásicos productos, con su destacada calidad y con el prestigio de un sello kosher.
+
+único Mc Donals kosher fuera de Israel.</p>
+                        </div>
+                    </div><!-- ends: .atbd_content_module -->
+                    <div class="atbd_content_module atbd_listing_gallery">
+
+                        <div class="atbdb_content_module_contents">
+                            <div class="gallery-wrapper">
+                                <div class="gallery-images">
+                                    <div class="single-image">
+                                        <img src="kosher1.jpg" alt="" style="height:500px;">
+                                    </div>
+                                    <div class="single-image">
+                                        <img src="kosher2.jpg" alt=""  style="height:500px;">
+                                    </div>
+                                    <div class="single-image">
+                                        <img src="kosher3.jpg" alt=""  style="height:500px;">
+                                    </div>
+                                    <div class="single-image">
+                                        <img src="kosher4.jpg" alt=""  style="height:500px;">
+                                    </div>
+
+                                </div><!-- ends: .gallery-images -->
+                                <div class="gallery-thumbs" style="display:none;">
+                                  <div class="single-thumb">
+                                      <img src="kosher1.jpg" alt="">
+                                  </div>
+                                  <div class="single-thumb">
+                                      <img src="kosher2.jpg" alt="">
+                                  </div>
+                                  <div class="single-thumb">
+                                      <img src="kosher3.jpg" alt="">
+                                  </div>
+                                  <div class="single-thumb">
+                                      <img src="kosher4.jpg" alt="">
+                                  </div>
+                                </div><!-- ends: .gallery-thumbs -->
+                            </div><!-- ends: .gallery-wrapper -->
+                        </div>
+                    </div><!-- ends: .atbd_content_module -->
+
+
+
+
+
+
+                </div>
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <div class="widget atbd_widget widget-card">
+
+                        <div class="widget-body atbd_author_info_widget">
+
+                            <div class="atbd_widget_contact_info">
+                                <ul>
+                                    <li>
+                                        <span class="la la-map-marker"></span>
+                                        <span class="atbd_info">Av. Corrientes 3522</span>
+                                    </li>
+                                    <li>
+                                        <span class="la la-phone"></span>
+                                        <span class="atbd_info">(54 11) 6590-5938</span>
+                                    </li>
+                                    <li>
+                                        <span class="la la-envelope"></span>
+                                        <span class="atbd_info">info@mckosher.com.ar</span>
+                                    </li>
+                                    <li>
+                                        <span class="la la-globe"></span>
+                                        <a href="" class="atbd_info">www.mckosher.com.ar</a>
+                                    </li>
+                                </ul>
+                            </div><!-- ends: .atbd_widget_contact_info -->
+
+                            <a href="" class="btn btn-block btn-gradient btn-gradient-two btn-lg claim-btn" data-toggle="modal" data-target="#moda_claim_listing">Contactar</a>
+                        </div><!-- ends: .widget-body -->
+                    </div><!-- ends: .widget -->
+
+
+                    <div class="widget atbd_widget widget-card">
+
+                        <div class="widget-body atbdb_content_module_contents">
+                            <div class="map" id="map-two" style="height: 300px !important"></div>
+                        </div><!-- ends: .atbdb_content_module_contents -->
+                    </div><!-- ends: widget -->
+
+
+
+
+                    </div><!-- ends: .widget -->
+                </div>
+            </div>
+        </div>
+    </section><!-- ends: .directory_listiing_detail_area -->
+    <footer class="footer-three footer-grey p-top-95" style="padding-top: 60px;
+    padding-bottom: 20px;">
+        <div class="footer-top p-bottom-25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget widget_pages">
+                            <h2 class="widget-title">Que estas buscando?</h2>
+                            <ul class="list-unstyled">
+                                <li class="page-item"><a href=""><i class="la la-cutlery"></i> Resto y Bares</a></li>
+                                <li class="page-item"><a href=""><i class="la la-balance-scale"></i> Profesionales</a></li>
+                                <li class="page-item"><a href=""><i class="la la-shopping-cart"></i> Comercios</a></li>
+
+                            </ul>
+                        </div>
+                    </div><!-- ends: .col-lg-3 -->
+                    <div class="col-lg-2   col-sm-6">
+                        <div class="widget widget_pages">
+                            <h2 class="widget-title" style="color:white">.</h2>
+                            <ul class="list-unstyled">
+                                <li class="page-item"><a href=""><i class="la la-industry"></i> Industrias</a></li>
+                                <li class="page-item"><a href=""><i class="la la-bullhorn"></i> Servicios</a></li>
+                                <li class="page-item"><a href=""><i class="la la-wrench"></i> Oficios</a></li>
+
+                            </ul>
+                        </div>
+                    </div><!-- ends: .col-lg-3 -->
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget widget_social">
+                            <h2 class="widget-title">Conectate con nosotros</h2>
+                            <ul class="list-unstyled social-list">
+                                <li><a href=""><span class="mail"><i class="la la-envelope" style="width: 1rem;
+    height: 1rem; background:none"></i></span> Soporte</a></li>
+                                <li><a href=""><span class="facebook"><i class="fab fa-facebook-f" style="width: 1rem;
+    height: 1rem; background:none"></i></span> Facebook</a></li>
+                                <li><a href=""><span class="instagram"><i class="fab fa-instagram" style="width: 1rem;
+    height: 1rem; background:none"></i></span> Instagram</a></li>
+                            </ul>
+                        </div><!-- ends: .widget -->
+                    </div><!-- ends: .col-lg-3 -->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="widget widget_text">
+                            <div class="textwidget">
+                                <h2  class="widget-title">Descargá la App de Parnacity y encontrá todo eso que estas buscando.</h2>
+                                <ul class="list-unstyled store-btns">
+                                    <li><a href="" class="btn-gradient btn-gradient-two btn btn-md btn-icon icon-left"><span class="fab fa-apple"></span> App Store</a></li>
+                                    <li><a href="" class="btn btn-dark btn-md btn-icon btn-icon"><span class="fab fa-android"></span> Google Play</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- ends: .widget -->
+                    </div><!-- ends: .col-lg-3 -->
+                </div>
+            </div>
+        </div><!-- ends: .footer-top -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-bottom--content">
+                            <a href="" class="footer-logo"><img src="logo-footer.png" alt="" width="150px"></a>
+                            <p class="m-0 copy-text" style="text-align:right;">©2022 Parnacity - Todos los derechos reservados</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- ends: .footer-bottom -->
+    </footer><!-- ends: .footer -->
+    <div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="login_modal_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="login_modal_label"><i class="la la-lock"></i> Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="/" id="login-form">
+                        <input type="text" class="form-control" placeholder="Username or Email" required>
+                        <input type="password" class="form-control" placeholder="Password" required>
+                        <div class="keep_signed custom-control custom-checkbox checkbox-outline checkbox-outline-primary">
+                            <input type="checkbox" class="custom-control-input" name="keep_signed_in" value="1" id="keep_signed_in">
+                            <label for="keep_signed_in" class="not_empty custom-control-label">Keep me signed in</label>
+                        </div>
+                        <button type="submit" class="btn btn-block btn-lg btn-gradient btn-gradient-two">Sign In</button>
+                    </form>
+                    <div class="form-excerpts">
+                        <ul class="list-unstyled">
+                            <li>Not a member? <a href="">Sign up</a></li>
+                            <li><a href="">Recover Password</a></li>
+                        </ul>
+                        <div class="social-login">
+                            <span>Or connect with</span>
+                            <p><a href="" class="btn btn-outline-secondary"><i class="fab fa-facebook-f"></i> Facebook</a><a href="" class="btn btn-outline-danger"><i class="fab fa-google-plus-g"></i> Google</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="signup_modal" tabindex="-1" role="dialog" aria-labelledby="signup_modal_label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signup_modal_label"><i class="la la-lock"></i> Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="/" id="signup-form">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                        <input type="password" class="form-control" placeholder="Password" required>
+                        <button type="submit" class="btn btn-block btn-lg btn-gradient btn-gradient-two">Sign Up</button>
+                    </form>
+                    <div class="form-excerpts">
+                        <ul class="list-unstyled">
+                            <li>Already a member? <a href="">Sign In</a></li>
+                            <li><a href="">Recover Password</a></li>
+                        </ul>
+                        <div class="social-login">
+                            <span>Or Signup with</span>
+                            <p><a href="" class="btn btn-outline-secondary"><i class="fab fa-facebook-f"></i> Facebook</a><a href="" class="btn btn-outline-danger"><i class="fab fa-google-plus-g"></i> Google</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0C5etf1GVmL_ldVAichWwFFVcDfa1y_c"></script>
+    <!-- inject:js-->
+    <script src="vendor_assets/js/jquery/jquery-1.12.3.js"></script>
+    <script src="vendor_assets/js/bootstrap/popper.js"></script>
+    <script src="vendor_assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor_assets/js/jquery-ui.min.js"></script>
+    <script src="vendor_assets/js/jquery.barrating.min.js"></script>
+    <script src="vendor_assets/js/jquery.counterup.min.js"></script>
+    <script src="vendor_assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="vendor_assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="vendor_assets/js/jquery.waypoints.min.js"></script>
+    <script src="vendor_assets/js/masonry.pkgd.min.js"></script>
+    <script src="vendor_assets/js/owl.carousel.min.js"></script>
+    <script src="vendor_assets/js/select2.full.min.js"></script>
+    <script src="vendor_assets/js/slick.min.js"></script>
+    <script src="theme_assets/js/locator.js"></script>
+    <script src="theme_assets/js/main.js"></script>
+    <script src="theme_assets/js/map.js"></script>
+    <!-- endinject-->
+</body>
+
+</html>
